@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGCNNで材料科学を革新：私の卒業研究プロジェクト</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="container">
+        <header>
+            <h1>CGCNNで材料科学を革新：私の卒業研究プロジェクト</h1>
+            <div class="btn-con">
+                <a href="pdf2.pdf" class="main-btn">
+                    <span class="btn-text">PDFをダウンロード</span>
+                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                </a>
+            </div>
+        </header>
+
+        <!-- Full-width Abstract Section -->
+        <div class="abstract">
+            <h2>概要</h2>
+            <p>
+              
+                本研究では、Materials Projectデータベースを活用し、CGCNN（Crystal Graph Convolutional Neural Networks）を用いて材料特性の予測精度を向上させる手法を開発している。Materials Projectデータベースは、豊富な結晶構造と物性データを提供するものであり、機械学習モデルのトレーニングに非常に有用である。
+                
+                CGCNNは、結晶構造をグラフとして表現し、その構造から直接的に材料の特性を学習できるモデルである。このため、従来の機械学習モデルのように手動で特徴を設計する必要がなく、効率的である。
+                
+                従来の実験的アプローチと比較して、この手法は時間とコストを大幅に削減でき、効率的かつ革新的な材料探索の実現が期待される。            </p>
+        </div>
+        <div class="research-content">
+
+            <!-- Introduction Section -->
+            <section>
+                <h2>はじめに</h2>
+                <p>
+                    材料科学はエネルギー、エレクトロニクス、環境保護など多くの分野で重要な役割を果たしている。しかし、従来の実験ベースのアプローチは時間とコストがかかるため、新しいアプローチが求められている。CGCNNは、結晶材料の特性を予測するための機械学習モデルであり、結晶格子構造をグラフとして扱い、その特性を学習することで革新的な材料探索の可能性を秘めている                </p>
+            </section>
+
+            <!-- Methodology Section -->
+            <section>
+                <h2>研究方法</h2>
+
+                <!-- Data Acquisition and Preprocessing -->
+                <h3>データの取得と前処理</h3>
+                <p>
+                    本研究では、Materials 本研究では、Materials Projectデータベースから結晶構造データを取得した。前処理では、異常値の除去やスケーリング、欠損データの補完を行い、データをCGCNNモデルに適したフォーマットに変換する。また、データの正規化と標準化を行うことで、学習アルゴリズムの効率と精度が向上する。
+                </p>
+
+                <!-- Model Training and Validation -->
+                <h3>モデルのトレーニングと検証</h3>
+                <p>
+                    データが準備できた後、CGCNNモデルをトレーニングする。モデルはトレーニング用と検証用のデータセットに分け、精度を検証する。評価指標として、平均二乗誤差（MSE）や決定係数（R²）を使用し、モデルのパフォーマンスを定量化した。これにより、モデルが新しいデータに対しても正確に特性を予測できることを確認した
+                </p>
+
+                <!-- Prediction and Optimization of Material Properties -->
+                <h3>材料特性の予測と最適化</h3>
+                <p>
+                    トレーニング済みのモデルを使って、新しい仮想材料の特性を予測する。具体的には、形成エネルギー、バンドギャップ、弾性率などの重要な特性を予測し、材料の適用可能性を評価する。また、最適化アルゴリズムを活用して、特定の特性を向上させるための材料構成要素の調整を提案することも可能である。
+                </p>
+            </section>
+
+            <!-- Results and Discussion Section -->
+            <section>
+                <h2>結果と考察</h2>
+
+                <!-- Predicted Properties of Selected Materials -->
+                <h3>特定材料の予測結果</h3>
+                <p>
+                    CGCNNモデルは、既存の材料データと高い相関性を持つ特性を予測することができた。例えば、モデルは特定の半導体材料のバンドギャップを実験結果に非常に近い値で予測した。これにより、CGCNNが材料の特性を正確に予測できる信頼性が証明された。
+                </p>
+
+                <!-- Comparative Analysis with Experimental Data -->
+                <h3>実験データとの比較分析</h3>
+                <p>
+                    モデルで予測された特性は、実験データと高い一致を示したが、一部の材料ではわずかな偏差が見られた。この偏差には、データの欠損やCGCNNモデルの限界が影響している可能性があり、今後の改善が求められている。
+                </p>
+            </section>
+
+            <!-- Applications Section -->
+            <section>
+                <h2>応用例と実用的意義</h2>
+
+                <!-- Semiconductor Materials -->
+                <h3>半導体材料の設計</h3>
+                <p>
+                    半導体は現代の電子機器や太陽電池において重要な役割を果たしている。CGCNNを使用することで、新しい半導体材料のバンドギャップを予測し、効率的な材料設計を支援することができる。
+                    
+                </p>
+                <img src="img/picture36.jpg" alt="半導体材料">
+
+            </section>
+            <section>
+
+                <!-- Battery Materials -->
+                <h3>バッテリー材料の開発</h3>
+                <p>
+                    電気自動車や再生可能エネルギーシステムで使用される高性能バッテリー材料の需要が増加している。CGCNNを利用することで、バッテリー材料のイオン伝導性と安定性を予測し、性能向上に貢献できる。
+                    
+                </p>
+                <img src="img/picture37.jpg" alt="バッテリー材料">
+            </section>
+            <section>
+
+                <!-- Catalysts for Chemical Reactions -->
+                <h3>化学反応用触媒の設計</h3>
+                <p>
+                    触媒は化学反応の効率を向上させる重要な材料である。CGCNNを用いることで、触媒の活性と安定性を予測し、新しい触媒材料の設計と開発を支援できる。
+                    
+                </p>
+                <img src="img/picture38.jpg" alt="触媒材料">
+                </p>
+        </section>
+        <section>
+
+            <h3>超伝導体</h3>
+            <p>
+                超伝導体はゼロ電気抵抗という独特の特性を持ち、電力伝送や磁気浮上に大きな影響を与える。CGCNNを用いることで、材料が超伝導になる臨界温度を予測し、より高い温度で動作する新しい超伝導体を発見し、その応用範囲を広げることができる。
+               
+
+            </p>
+            <img src="img/picture39.gif" alt="">
+        </section>
+
+            <!-- Future Directions Section -->
+            <section>
+                <h2>今後の方向性と目標</h2>
+                <p>
+                    現在、CGCNNモデルの精度向上に向けて、いくつかの改良に取り組んでいる。まず、Materials Projectのデータには不完全な情報や欠落が見られることがあり、これが予測精度に影響を与えている。この問題に対して、データの前処理方法を改善し、信頼性の低いデータを自動的に検出・除去するアルゴリズムを導入する予定である。
+
+また、CGCNNモデル自体が比較的新しいため、利用できる資料が少なく、学習が難しい状況にある。この課題には、同分野の専門家との連携を強化し、知識を共有し合うことで対応している。さらに、モデルの精度を高めるために必要な計算資源を効率的に活用できるよう、計算手法の最適化も進めている。
+
+将来的には、これらの改善を通じて、実験データとの併用による予測精度の向上を目指し、CGCNNを新材料の設計と実証を支援する包括的なツールとして発展させることを目標としている。
+                </p>
+            </section>
+
+            <!-- Conclusion Section -->
+            <section>
+                <h2>結論</h2>
+                <p>
+                    本研究での改善により、CGCNNモデルはより精度の高い材料特性予測が可能になり、材料の発見と最適化において革新的なアプローチを提供できると期待される。この取り組みは、機械学習と材料科学の融合をさらに進め、従来の実験的手法を補完する重要な技術としての地位を確立するものである。
+                </p>
+               
+            </section>
+        </div>
+    </section>
+</body>
+</html>
